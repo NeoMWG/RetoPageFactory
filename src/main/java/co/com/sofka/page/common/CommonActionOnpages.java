@@ -11,7 +11,7 @@ public class CommonActionOnpages {
     private final WebDriver driver;
     private WebDriverWait typeWait;
 
-    public CommonActionOnpages (WebDriver driver) {
+    public CommonActionOnpages(WebDriver driver) {
         this.driver = driver;
         typeWait = new WebDriverWait(driver, 30);
     }
@@ -74,3 +74,5 @@ public class CommonActionOnpages {
     protected void scrollUp() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,100)");
+    }
+}

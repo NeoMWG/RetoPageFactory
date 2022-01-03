@@ -5,8 +5,6 @@ public class ZonaFitCoModel {
     private String nameClient;
     private String emailClient;
     private String lastNameClient;
-    private State stateClient;
-    private City cityClient;
     private String addressClient;
     private String phoneClient;
 

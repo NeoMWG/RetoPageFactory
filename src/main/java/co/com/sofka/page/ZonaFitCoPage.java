@@ -98,9 +98,9 @@ public class ZonaFitCoPage extends CommonActionOnpages {
             waitClickable(numberDocument);
             clearText(numberDocument);
             clearText(emailClientWE);
-            typeInto(emailClientWE, zonaFitCoModel.getEmailClient();
+            typeInto(emailClientWE); zonaFitCoModel.getEmailClient();
             clearText(nameClientWE);
-            typeInto(nameClientWE, zonaFitCoModel.getNameClient();
+            typeInto(nameClientWE); zonaFitCoModel.getNameClient();
             clearText(lastNameClientWE);
             typeInto(lastNameClientWE, zonaFitCoModel.getLastNameClient());
 
